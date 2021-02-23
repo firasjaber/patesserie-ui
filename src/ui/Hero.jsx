@@ -17,10 +17,11 @@ const Hero = () => {
         alignItems="center"
         justifyContent="center"
         height="100%"
-        overflow="hidden"
         sx={{ backgroundColor: 'rgba(0,0,0,0.6)' }}
       >
-        <Heading color="whiteAlpha.600">Welcome to our Restaurant</Heading>
+        <Heading color="whiteAlpha.600" fontFamily="Dancing Script" size="2xl">
+          Welcome
+        </Heading>
       </Box>
     </Box>
   );

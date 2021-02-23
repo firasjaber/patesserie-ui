@@ -19,7 +19,7 @@ const HomePage = () => {
     <Container maxW="3xl">
       <Navbar />
       <Hero />
-      <Heading size="md" my="20px">
+      <Heading size="lg" my="30px" fontFamily="Dancing Script">
         Our Products
       </Heading>
       <Products />

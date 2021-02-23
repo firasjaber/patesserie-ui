@@ -15,7 +15,7 @@ const Products = () => {
   }, [data]);
 
   return (
-    <SimpleGrid minChildWidth="180px" spacing={5}>
+    <SimpleGrid minChildWidth="700px" spacing={5}>
       {products.map((product) => (
         <ProductCard
           name={product.name}
