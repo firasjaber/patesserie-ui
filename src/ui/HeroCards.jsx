@@ -6,7 +6,7 @@ import Bread from './../utils/bread.png';
 
 const HeroCards = () => {
   return (
-    <Box bgColor="gray.100" height="200px">
+    <Box bgColor="gray.100" height="180px">
       <Container maxW="container.md">
         <Flex justifyContent="space-between">
           <Box

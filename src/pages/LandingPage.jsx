@@ -15,6 +15,9 @@ import HeroImage from './../utils/wide.jpg';
 import Cake from './../utils/cake.png';
 import HeroCards from '../ui/HeroCards';
 import AboutSection from './../ui/AboutSection';
+import MenuSection from '../ui/MenuSection';
+import ContactSection from '../ui/ContactSection';
+import Footer from '../ui/Footer';
 
 const LandingPage = () => {
   const { toggleColorMode } = useColorMode();
@@ -58,6 +61,9 @@ const LandingPage = () => {
       </Box>
       <HeroCards />
       <AboutSection />
+      <MenuSection />
+      <ContactSection />
+      <Footer />
     </Box>
   );
 };
