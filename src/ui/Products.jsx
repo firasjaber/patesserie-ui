@@ -6,7 +6,7 @@ import { useQuery } from 'react-query';
 const Products = () => {
   const [products, setProducts] = useState([]);
   const { isLoading, error, data } = useQuery('repoData', () =>
-    fetch('http://localhost:3001/api/products').then((res) => res.json()),
+    fetch('http://13.69.15.141:3001/api/products').then((res) => res.json()),
   );
   useEffect(() => {
     if (data && data.products) {
