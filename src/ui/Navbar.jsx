@@ -6,9 +6,10 @@ const Navbar = () => {
     <Flex justifyContent="space-between" alignItems="center" my="30px">
       <Heading fontFamily="Architects Daughter">GoBakery</Heading>
       <Flex>
-        <Link ml="2">Home</Link>
-        <Link ml="2">Categories</Link>
-        <Link ml="2">Dashboard</Link>
+        <Link ml="25px">Home</Link>
+        <Link ml="25px">About</Link>
+        <Link ml="25px">Menu</Link>
+        <Link ml="25px">Contact</Link>
       </Flex>
     </Flex>
   );
