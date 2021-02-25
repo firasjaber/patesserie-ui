@@ -1,4 +1,4 @@
-import { Box, Divider, Flex, Image, Text } from '@chakra-ui/react'
+import { Box, Button, Divider, Flex, Image, Spacer, Text } from '@chakra-ui/react'
 import React, { useState } from 'react'
 import MenuCake from '../../utils/menuCake.jpg';
 import Scroll from './../Scroll';
@@ -26,13 +26,26 @@ const ProductList = () => {
                     return (
                         <>
                             <Flex>
-                                <Image height="60px" w="50px" src={MenuCake}></Image>
-                                <Text m="2">
+                                <Image p="1.25" m="2" height="60px" w="50px" src={MenuCake}></Image>
+                                <Text m="2" alignSelf="center">
                                     {product.name}
                                 </Text>
-                                <Text m="2">
+                                <Spacer />
+                                <Text m="2" alignSelf="center">
                                     {product.price} DT
                                 </Text>
+                                <Spacer />
+                                <Button m="2" alignSelf="center">Edit</Button>
+                                <Button 
+                                    m="2" 
+                                    alignSelf="center"
+                                    bg="red" 
+                                    borderRadius="3xl" 
+                                    color="white"
+                                    fontWeight="bold"
+                                >
+                                    X
+                                </Button>
                             </Flex>
                             <Divider />
                         </>
