@@ -1,10 +1,24 @@
 import React from 'react'
+import { Box, Container, Text } from '@chakra-ui/react'
+import HeroImage from './../utils/wide.jpg';
+import Navbar from '../ui/Navbar';
 
 const Dashboard = () => {
     return (
-        <div>
-            dashboard
-        </div>
+            <Box
+                backgroundImage={`url('${HeroImage}')`}
+                backgroundPosition="center"
+                backgroundRepeat="no-repeat"
+                height="680px"
+                marginTop="-29px"
+            >
+                <Box height="100%" sx={{ backgroundColor: 'rgba(255,250,255,0.8)' }}>
+                    <Container maxW="container.lg" fontFamily="Roboto" paddingTop="40px">
+                        <Navbar />
+                    </Container>
+                    
+                </Box>
+            </Box>
     )
 }
 
