@@ -15,6 +15,12 @@ const HeroCards = () => {
             w="170px"
             marginTop="-80px"
             boxShadow="base"
+            transition="all 0.1s ease-in-out"
+            _hover={{
+              boxShadow: 'lg',
+              cursor: 'pointer',
+              transform: 'translateY(-1px)',
+            }}
           >
             <Flex
               flexDirection="column"
@@ -41,6 +47,12 @@ const HeroCards = () => {
             w="170px"
             marginTop="-80px"
             boxShadow="base"
+            transition="all 0.1s ease-in-out"
+            _hover={{
+              boxShadow: 'lg',
+              cursor: 'pointer',
+              transform: 'translateY(-1px)',
+            }}
           >
             <Flex
               flexDirection="column"
@@ -67,6 +79,12 @@ const HeroCards = () => {
             w="170px"
             marginTop="-80px"
             boxShadow="base"
+            transition="all 0.1s ease-in-out"
+            _hover={{
+              boxShadow: 'lg',
+              cursor: 'pointer',
+              transform: 'translateY(-1px)',
+            }}
           >
             <Flex
               flexDirection="column"

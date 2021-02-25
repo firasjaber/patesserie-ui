@@ -12,7 +12,7 @@ import {
   Image,
 } from '@chakra-ui/react';
 import HeroImage from './../utils/wide.jpg';
-import Cake from './../utils/cake.png';
+import HeroSection from './../ui/HeroSection';
 import HeroCards from '../ui/HeroCards';
 import AboutSection from './../ui/AboutSection';
 import MenuSection from '../ui/MenuSection';
@@ -31,34 +31,7 @@ const LandingPage = () => {
       height="680px"
       marginTop="-29px"
     >
-      <Box height="100%" sx={{ backgroundColor: 'rgba(255,250,255,0.8)' }}>
-        <Container maxW="container.lg" fontFamily="Roboto" paddingTop="40px">
-          <Navbar />
-        </Container>
-        <Container maxW="container.md" mt="70px">
-          <Flex alignItems="center" justifyContent="space-between">
-            <Box>
-              <Heading maxW="350px">
-                Get a taste of our delicious bakeries
-              </Heading>
-              <Text maxW="300px" pt="15px">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </Text>
-              <Button
-                fontFamily="Oswald"
-                mt="20px"
-                rounded="none"
-                color="white"
-                bgColor="red.700"
-              >
-                DISCOVER NOW -
-              </Button>
-            </Box>
-            <Image src={Cake} w="400px" h="350px" />
-          </Flex>
-        </Container>
-      </Box>
+      <HeroSection />
       <HeroCards />
       <AboutSection />
       <MenuSection />

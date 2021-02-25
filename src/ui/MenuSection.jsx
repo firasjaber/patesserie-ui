@@ -8,16 +8,21 @@ import {
   Image,
 } from '@chakra-ui/react';
 import MenuCake from './../utils/menuCake.jpg';
+import MenuCake2 from './../utils/menuCake2.jpg';
+import MenuCake3 from './../utils/menuCake3.jpg';
+import MenuCookie from './../utils/menuCookie2.jpg';
+import MenuCookie2 from './../utils/menuCookie3.jpg';
+
 const MenuSection = () => {
   const topPicks = [
-    { name: 'GOOD CAKE', price: 15 },
-    { name: 'GOOD CAKE', price: 15 },
-    { name: 'GOOD CAKE', price: 15 },
-    { name: 'GOOD CAKE', price: 15 },
-    { name: 'GOOD CAKE', price: 15 },
-    { name: 'GOOD CAKE', price: 15 },
-    { name: 'GOOD CAKE', price: 15 },
-    { name: 'GOOD CAKE', price: 15 },
+    { name: 'GOOD CAKE', price: 15, imageSrc: MenuCake },
+    { name: 'PERFECT CAKE', price: 15, imageSrc: MenuCake },
+    { name: 'GOOD CAKE', price: 15, imageSrc: MenuCake2 },
+    { name: 'GOOD CAKE', price: 15, imageSrc: MenuCake3 },
+    { name: 'BLACK COOKIE', price: 15, imageSrc: MenuCookie },
+    { name: 'NEW COOKIE', price: 15, imageSrc: MenuCookie2 },
+    { name: 'GOOD CAKE', price: 15, imageSrc: MenuCake2 },
+    { name: 'GOOD CAKE', price: 15, imageSrc: MenuCake3 },
   ];
   return (
     <Box bgColor="gray.200" pt="100px" height="950px">
@@ -44,9 +49,9 @@ const MenuSection = () => {
                 height="300px"
                 bgColor="gray.100"
                 transition="all 0.3s ease-in-out"
-                _hover={{ shadow: 'base' }}
+                _hover={{ shadow: 'base', cursor: 'pointer' }}
               >
-                <Image height="200px" src={MenuCake}></Image>
+                <Image height="200px" src={product.imageSrc}></Image>
                 <Heading
                   mt="15px"
                   size="sm"

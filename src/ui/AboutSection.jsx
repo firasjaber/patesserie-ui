@@ -20,7 +20,7 @@ const AboutSection = () => {
               Story Time
             </Heading>
             <Heading size="lg" my="10px">
-              About GoBakery
+              About ZeeBakery
             </Heading>
             <Text>
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem

@@ -73,7 +73,7 @@ const Footer = () => {
             </Box>
           </Flex>
           <Text mt="40px" textAlign="center" opacity="0.6" fontSize="sm">
-            © 2018 - 2020 GoBakery LLC, all right reserved.
+            © 2018 - 2021 GoBakery LLC, all right reserved.
           </Text>
         </Container>
       </Box>
