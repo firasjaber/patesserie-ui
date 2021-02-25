@@ -10,7 +10,7 @@ const Navbar = () => {
         <Link ml="25px" href="#about">About</Link>
         <Link ml="25px" href="#menu">Menu</Link>
         <Link ml="25px" href="#contact">Contact</Link>
-        <Link ml="25px" as={ReachLink} to="/admin">admin</Link>
+        <Link ml="25px" as={ReachLink} to="/login">login</Link>
       </Flex>
     </Flex>
   );

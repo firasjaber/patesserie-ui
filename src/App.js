@@ -6,7 +6,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import Dashboard from './pages/Dashboard';
-
+import LoginForm from './pages/LoginForm';
 const queryClient = new QueryClient();
 
 function App() {
@@ -17,6 +17,9 @@ function App() {
           <Switch>
             <Route path="/admin">
               <Dashboard />
+            </Route>
+            <Route path="/login">
+              <LoginForm />
             </Route>
             <Route path="/">
               <LandingPage />
