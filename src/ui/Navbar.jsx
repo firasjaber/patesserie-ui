@@ -7,9 +7,9 @@ const Navbar = () => {
       <Heading fontFamily="Architects Daughter">GoBakery</Heading>
       <Flex>
         <Link ml="25px">Home</Link>
-        <Link ml="25px">About</Link>
-        <Link ml="25px">Menu</Link>
-        <Link ml="25px">Contact</Link>
+        <Link ml="25px" href="#about">About</Link>
+        <Link ml="25px" href="#menu">Menu</Link>
+        <Link ml="25px" href="#contact">Contact</Link>
       </Flex>
     </Flex>
   );

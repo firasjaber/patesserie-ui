@@ -4,7 +4,7 @@ import About from './../utils/about.png';
 
 const AboutSection = () => {
   return (
-    <Box bgColor="gray.100" height="390px">
+    <Box bgColor="gray.100" height="390px" id="about">
       <Container maxW="container.md">
         <Flex justifyContent="center" alignItems="center">
           <Image src={About} h="300px" w="auto" mr="30px" />
