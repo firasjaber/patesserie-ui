@@ -6,6 +6,7 @@ import {
   Heading,
   Flex,
   Image,
+  Button,
 } from '@chakra-ui/react';
 import MenuCake from './../utils/menuCake.jpg';
 import MenuCake2 from './../utils/menuCake2.jpg';
@@ -25,7 +26,7 @@ const MenuSection = () => {
     { name: 'GOOD CAKE', price: 15, imageSrc: MenuCake3 },
   ];
   return (
-    <Box bgColor="gray.200" pt="100px" height="950px" id="menu">
+    <Box bgColor="gray.200" pt="100px" height="1050px" id="menu">
       <Container maxW="container.md">
         <Box textAlign="center">
           <Box
@@ -84,6 +85,16 @@ const MenuSection = () => {
               </Flex>
             ))}
           </SimpleGrid>
+          <Button
+            fontFamily="Oswald"
+            mt="50px"
+            rounded="none"
+            color="white"
+            textAlign="center"
+            bgColor="red.700"
+          >
+            DISCOVER MORE -
+          </Button>
         </Box>
       </Container>
     </Box>

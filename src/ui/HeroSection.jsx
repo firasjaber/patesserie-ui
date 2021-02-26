@@ -22,9 +22,7 @@ const HeroSection = () => {
         <Container maxW="container.md" mt="70px">
           <Flex alignItems="center" justifyContent="space-between">
             <Box>
-              <Heading maxW="350px">
-                Get a taste of our delicious bakeries
-              </Heading>
+              <Heading maxW="350px">Get a taste of our delicious bakes</Heading>
               <Text maxW="300px" pt="15px">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.

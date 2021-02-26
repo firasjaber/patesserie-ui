@@ -16,11 +16,11 @@ const Footer = () => {
       backgroundImage={`url('${FooterImage}')`}
       backgroundPosition="center"
       backgroundRepeat="no-repeat"
-      height="250px"
+      height="300px"
     >
       <Box height="100%" sx={{ backgroundColor: 'rgba(0,0,0,0.8)' }}>
         <Container maxW="container.sm" color="white">
-          <Flex justifyContent="space-between" pt="50px">
+          <Flex justifyContent="space-between" pt="70px">
             <Box>
               <Heading
                 size="sm"
