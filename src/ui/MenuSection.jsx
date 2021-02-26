@@ -25,7 +25,7 @@ const MenuSection = () => {
     { name: 'GOOD CAKE', price: 15, imageSrc: MenuCake3 },
   ];
   return (
-    <Box bgColor="gray.200" pt="100px" height="950px">
+    <Box bgColor="gray.200" pt="100px" height="950px" id="menu">
       <Container maxW="container.md">
         <Box textAlign="center">
           <Box

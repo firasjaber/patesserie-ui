@@ -4,7 +4,7 @@ import Baker from './../utils/baker.png';
 
 const ContactSection = () => {
   return (
-    <Box bgColor="gray.100" height="470px" pt="60px">
+    <Box bgColor="gray.100" height="470px" pt="60px" id="contact">
       <Container maxW="container.md">
         <Flex justifyContent="center" alignItems="center">
           <Image src={Baker} h="300px" w="auto" mr="30px" />
