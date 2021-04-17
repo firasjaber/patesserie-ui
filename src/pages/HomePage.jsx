@@ -16,7 +16,7 @@ import Navbar from './../ui/Navbar';
 
 const HomePage = () => {
   return (
-    <Container maxW="3xl">
+    <Container maxW="4xl">
       <Navbar />
       <Hero />
       <Heading size="lg" my="30px" fontFamily="Dancing Script">
